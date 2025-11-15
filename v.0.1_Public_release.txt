@@ -4,6 +4,8 @@ The world’s first Modest Cognition Model (MCM) — open, deterministic, and fr
 
 This release marks the first public publication of Janet, a Modest Cognition Model (MCM) — a new class of artificial cognition built for safety, transparency, determinism, and stability, not scale.
 
+MCM = Modest Cognition Model — a new cognitive class defining deterministic, modular, bounded artificial cognition.
+
 MCMs are not LLMs, not neural networks, and not agent frameworks.
 Janet represents a transparent, auditable, modular cognition engine that grows only through human-gated curriculum.
 
@@ -163,4 +165,5 @@ A path built for stability, not spectacle.
 🌍 Janet belongs to everyone
 
 Janet and the MCM class are released for the world to build upon — free, open, and unowned.
+
 This is the beginning of a new public cognitive substrate.
