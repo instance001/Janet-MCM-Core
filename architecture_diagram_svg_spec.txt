@@ -1,0 +1,11 @@
+SVG/PNG Diagram Specification
+--------------------------------
+Title: Janet — Modest Cognition Model (MCM) Architecture
+Style:
+- Clean engineering schematic
+- Colors: purple #6B2AA6, blue-gray #435465, green #4BB36A, orange #F3A533
+Blocks:
+[Input] -> [Input Normalizer] -> [Mode Selector] -> [Skill Selector] -> [Skill Module] -> [Output] -> [Logging] -> [Memory Spine]
+Memory Spine Subdiagram:
+[Candidate] -> [Reviewed] -> [Stable] with human review arrows.
+Annotations under each block.

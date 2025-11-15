@@ -1,0 +1,53 @@
+Janet Architecture Diagram (ASCII)
+-----------------------------------
+                         ┌────────────────────────────────┐
+                         │        Input (User / JSON)     │
+                         └────────────────────────────────┘
+                                       │
+                                       ▼
+                         ┌────────────────────────────────┐
+                         │      Input Normalizer          │
+                         │  - schema validation           │
+                         │  - field typing                │
+                         │  - ambiguity rejection         │
+                         └────────────────────────────────┘
+                                       │
+                                       ▼
+                         ┌────────────────────────────────┐
+                         │        Mode Selector           │
+                         │  (invoice / math / policy…)    │
+                         └────────────────────────────────┘
+                                       │
+                                       ▼
+                         ┌────────────────────────────────┐
+                         │        Skill Selector          │
+                         │   picks one deterministic      │
+                         │   skill module by schema/tags  │
+                         └────────────────────────────────┘
+                                       │
+                                       ▼
+                     ┌────────────────────────────────────────┐
+                     │               Skill                    │
+                     │  def metadata(): …                     │
+                     │  def execute(input): output            │
+                     └────────────────────────────────────────┘
+                                       │
+                                       ▼
+                         ┌────────────────────────────────┐
+                         │          Output                │
+                         │  (typed dict)                  │
+                         └────────────────────────────────┘
+                                       │
+                                       ▼
+                         ┌────────────────────────────────┐
+                         │        Logging Layer           │
+                         │  - INPUT → MODE → SKILL → OUT  │
+                         │  - full audit record            │
+                         └────────────────────────────────┘
+                                       │
+                                       ▼
+                         ┌────────────────────────────────┐
+                         │        Memory Spine            │
+                         │  candidate → review → stable   │
+                         │  (human approval required)     │
+                         └────────────────────────────────┘
