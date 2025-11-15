@@ -1,0 +1,166 @@
+🧠 Janet MCM Core v0.1.0 — Initial Public Commons Release
+
+The world’s first Modest Cognition Model (MCM) — open, deterministic, and free forever.
+
+This release marks the first public publication of Janet, a Modest Cognition Model (MCM) — a new class of artificial cognition built for safety, transparency, determinism, and stability, not scale.
+
+MCMs are not LLMs, not neural networks, and not agent frameworks.
+Janet represents a transparent, auditable, modular cognition engine that grows only through human-gated curriculum.
+
+This release establishes the conceptual, legal, and architectural foundation of the MCM class in the global commons.
+
+
+---
+
+🚀 What’s Included in v0.1.0
+
+1. Architecture & Design Assets
+
+MCM architecture diagrams
+
+Selector/skill model layout
+
+Memory Spine design
+
+Two-AI Workshop concept bundle
+
+Deterministic rule definitions
+
+Core safety constraints
+
+
+2. Governance & Safety
+
+CONTRIBUTING guidelines
+
+SECURITY policy
+
+MCM safety philosophy
+
+Development boundaries and rules
+
+Modesty Boundary definition
+
+
+3. Branding / Presentation
+
+Initial branding banner assets
+
+Color scheme & header spec
+
+Text and SVG-style design notes
+
+
+4. Proof-of-Intent Demo
+
+Janet_v0_10_json_invoice_demo package
+
+Early selector & skill organization
+
+Deterministic JSON invoice/PO validation pipeline
+
+Basic example of how MCMs operate without neural nets
+
+
+5. Research Papers & Documentation
+
+Foundational MCM conceptual drafts
+
+The Dewey Cox Paradox (AI constraints theory)
+
+The Prosthetic Stack Principle
+
+Symbound Composite Cognition notes
+
+Modest Cognition Model definitions and explanation
+
+
+This release does not include the full runnable MCM engine — that arrives in v0.2–v0.4 — but it does lay the entire intellectual and architectural groundwork required for the system’s emergence.
+
+
+---
+
+🔐 License
+
+This project is released under the GNU AGPLv3, ensuring Janet remains free, open, and community-owned forever.
+
+Any person or organization who modifies, extends, or uses Janet over a network must open their improvements to the public.
+
+This protects the commons and guarantees that MCMs cannot be enclosed, privatized, or locked behind paywalls.
+
+
+---
+
+🎯 Purpose of This Release
+
+Establish the new AI class (MCM) in the open
+
+Document its architecture, philosophy, and boundaries
+
+Provide early assets for researchers and developers
+
+Enable community engagement from the start
+
+Protect the design under a strong copyleft license
+
+Demonstrate a working “intent example” (JSON invoice demo)
+
+
+This release functions as the first public anchor for the class — a timestamped, discoverable, immutable foundation ensuring the commons owns Modest Cognition Models.
+
+
+---
+
+🗺️ Roadmap
+
+Version	Status	Description
+
+v0.1.0	Released	Architecture, docs, assets, early demo
+v0.2.0	Coming	Repo scaffold + deterministic core layout
+v0.3.0	Planned	Memory Spine + selectors + skill engine
+v0.4.0	Planned	CLI + stable MCM runtime
+v0.5.0	Planned	Full local Janet reference implementation
+
+
+
+---
+
+🧩 Why Modest Cognition Models?
+
+To provide the world with:
+
+deterministic cognition
+
+inspectable reasoning
+
+explicit memory
+
+safety through architecture
+
+zero hallucination tolerance
+
+human-controlled growth
+
+transparency above all
+
+
+MCMs represent a third path between:
+
+neural nets (LLMs)
+
+symbolic AI
+
+rule engines
+
+agent frameworks
+
+
+A path built for stability, not spectacle.
+
+
+---
+
+🌍 Janet belongs to everyone
+
+Janet and the MCM class are released for the world to build upon — free, open, and unowned.
+This is the beginning of a new public cognitive substrate.
