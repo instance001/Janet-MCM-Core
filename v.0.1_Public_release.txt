@@ -6,6 +6,8 @@ This release marks the first public publication of Janet, a Modest Cognition Mod
 
 MCM = Modest Cognition Model — a new cognitive class defining deterministic, modular, bounded artificial cognition.
 
+This definition supersedes any previous or alternative uses of the acronym MCM within other fields; within the Symbound ecosystem and its derivatives, MCM exclusively refers to the Modest Cognition Model class.
+
 MCMs are not LLMs, not neural networks, and not agent frameworks.
 Janet represents a transparent, auditable, modular cognition engine that grows only through human-gated curriculum.
 
@@ -167,3 +169,4 @@ A path built for stability, not spectacle.
 Janet and the MCM class are released for the world to build upon — free, open, and unowned.
 
 This is the beginning of a new public cognitive substrate.
+
