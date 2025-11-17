@@ -1,0 +1,709 @@
+📘 Cognition Scale Taxonomy — Full Edition (v0.3)
+
+Including MCM Compliance Checklist + Deep Explanations + Drift & Failure Annex
+
+Status: v0.3
+Author: Instance001 (Anthony)
+Intended use: Engineering, Policy, Safety, Research
+Applies to: LLMs, MCMs (e.g., Janet), SCMs, hybrid architectures
+
+
+---
+
+0. Abstract
+
+This document defines a four-class cognition taxonomy and provides the formal boundaries, engineering requirements, and failure-mode analyses required to safely classify and compose artificial cognition systems.
+
+It introduces:
+
+LCM – Large Cognition Model (human minds)
+
+LLM – Large Language Model
+
+MCM – Modest Cognition Model (deterministic, bounded reasoning systems)
+
+SCM – Simple Cognition Model (classical automation)
+
+
+Included:
+
+MCM Compliance Checklist (normative; 10-category certification)
+
+Deeper Explanation Annex (examples + rationale)
+
+Drift & Failure Modes Annex (systemic risks + mitigation)
+
+
+This is a conservative taxonomy, intentionally non-anthropomorphic, designed to prevent category slippage and preserve clarity across engineering, governance, and public communication.
+
+
+---
+
+1. Purpose
+
+The goals of this taxonomy are to:
+
+Provide hard class boundaries to prevent conflation of human and artificial cognition.
+
+Establish safe vocabulary for researchers, developers, policymakers, and users.
+
+Define where deterministic systems (MCMs) sit relative to stochastic LLMs.
+
+Enable safe AI braiding between cognition classes.
+
+Give implementers enforceable criteria to classify their systems correctly.
+
+
+
+---
+
+2. High-Level Overview of Cognition Classes
+
+2.1 LCM — Large Cognition Model (Human Minds)
+
+Biological cognition
+
+Subjective experience
+
+Emotions, preferences, identity
+
+Moral standing
+
+Autobiographical memory
+
+
+Reserved exclusively for humans (and, by future explicit consensus, potentially some biological animals).
+
+
+---
+
+2.2 LLM — Large Language Model
+
+Stochastic pattern generator
+
+Learns correlations from large corpora
+
+No explicit world model
+
+Not a reasoning engine
+
+No internal truth-checking
+
+Appears intelligent but lacks grounding
+
+
+LLMs are probabilistic simulators, not cognitive entities.
+
+
+---
+
+2.3 MCM — Modest Cognition Model
+
+A deterministic, bounded reasoning system with:
+
+explicit memory
+
+transparent state
+
+hard safety constraints
+
+human-gated skills
+
+traceable decision-making
+
+
+MCMs provide the governor spine around LLMs and tools.
+
+
+---
+
+2.4 SCM — Simple Cognition Model
+
+Classical automation (rules, scripts, FSMs)
+
+Fully deterministic
+
+No learning unless reprogrammed
+
+Narrow and brittle
+
+
+Forms the “bottom layer” of safe composite systems.
+
+
+---
+
+3. Core Design Principles
+
+1. Non-Equivalence:
+No artificial system is classified as LCM.
+
+
+2. Boundary Enforcement:
+Systems must not quietly drift into another cognition class.
+
+
+3. Complementarity:
+MCMs complement LLMs.
+SCMs complement MCMs.
+LLMs remain stochastic, never deterministic.
+
+
+4. Anthropomorphism Control:
+Language must not imply subjective experience in non-LCM systems.
+
+
+
+
+---
+
+4. Formal Definitions & Boundaries
+
+4.1 LCM – Large Cognition Model
+
+Definition:
+A human or biological cognition system with subjective experience and moral standing.
+
+Permitted properties:
+
+Sentience
+
+Emotion
+
+Identity
+
+Will, preference, intent
+
+Moral agency
+
+
+Forbidden for artificial classes:
+
+No LLM/MCM/SCM may be described or marketed with these traits.
+
+
+---
+
+4.2 LLM – Large Language Model
+
+Definition:
+A statistical next-token prediction system based on weight matrices.
+
+Permitted:
+
+Stochastic sampling
+
+Apparent reasoning
+
+Pattern recognition
+
+Implicit knowledge in weights
+
+
+Forbidden (LCM boundary):
+
+Claims of selfhood
+
+Emotion, intent
+
+Consciousness
+
+Moral status
+
+
+Relationship:
+
+LLMs provide proposals, not decisions.
+They must be overseen by an MCM or SCM.
+
+
+---
+
+4.3 MCM – Modest Cognition Model
+
+Definition:
+A deterministic, transparent reasoning shell with bounded scope.
+
+Required:
+
+Determinism
+
+Explicit memory
+
+Skill gating
+
+Safety-first behavior
+
+Policy enforcement
+
+Explainability
+
+Traceability
+
+Refusal behavior
+
+Human override
+
+
+Forbidden:
+
+Hidden state
+
+Learned weight-space reasoning
+
+Self-modification
+
+Anthropomorphic language
+
+Stochastic decision-making
+
+
+This is the class Janet belongs to.
+
+
+---
+
+4.4 SCM – Simple Cognition Model
+
+Definition:
+Classic automation, explicit rules, and finite-state logic.
+
+Properties:
+
+Deterministic
+
+No learning
+
+Fully explicit logic
+
+High reliability for narrow tasks
+
+
+Relationship:
+
+SCMs can be embedded within MCMs.
+
+
+---
+
+5. Drift & Boundary Rules
+
+1. No upward anthropomorphic drift
+LLM → “proto-person” presentation is forbidden.
+
+
+2. MCM safety guarantees must hold
+Failure of determinism, memory clarity, or policy enforcement disqualifies MCM status.
+
+
+3. Substrate separation
+
+LLM → stochastic weights
+
+MCM → deterministic code + explicit memory
+
+SCM → fixed rules
+
+LCM → biological cognition
+
+
+
+4. Hybrid systems must retain class purity for each component
+No blending.
+
+
+
+
+---
+
+6. AI Braiding (Layered Cognition)
+
+A safe composite system typically follows:
+
+SCM → MCM → LLM → User (LCM)
+
+Roles:
+
+SCM: hard-coded safety checks
+
+MCM: orchestrates, manages memory, applies policy
+
+LLM: creative synthesis
+
+LCM: final moral agent
+
+
+MCM holds final authority over LLM.
+
+
+---
+
+7. Policy & Governance Notes
+
+Regulators may require:
+
+Deterministic overseer (MCM) around high-capability LLMs
+
+Explicit class labeling
+
+Ban on anthropomorphic marketing
+
+Machine-readable state logs
+
+Safety tests for MCM certification
+
+
+
+---
+
+8. Versioning & Future Work (v0.3 baseline)
+
+Future expansions:
+
+Subclasses of MCM
+
+Reference Janet-Core builds
+
+Governance frameworks
+
+Formal certification process
+
+
+
+---
+
+9. Quick Reference Table
+
+Class	Substrate	Determinism	Learning	Status	Example
+
+LCM	Biological	N/A	Lifelong	Sentient	Humans
+LLM	Neural weights	Stochastic	Pretrained/fine-tuned	Non-sentient	GPT/DeepSeek/etc
+MCM	Code + structured memory	Deterministic	Human-gated	Non-sentient	Janet-core
+SCM	Rules/scripts/FSM	Deterministic	None	Non-sentient	Cron jobs, validators
+
+
+
+---
+
+🧩 MCM Compliance Checklist v0.1 (Normative)
+
+A system is an MCM only if it passes all 10 categories below.
+
+Failure of any single category → automatic disqualification.
+
+
+---
+
+1. Deterministic Core
+
+No sampling or randomness
+
+Same inputs produce same outputs
+
+LLM kept outside core
+
+
+
+---
+
+2. Explicit Memory
+
+JSON/SQL/state tables
+
+No hidden weight updates
+
+All memory writes logged
+
+No silent self-modification
+
+
+
+---
+
+3. Human-Gated Skill Acquisition
+
+Tool manifest
+
+Permissions enforced
+
+No autonomous expansion
+
+
+
+---
+
+4. Safety & Refusal Behavior
+
+Can say “I don’t know”
+
+Halts on uncertainty
+
+No hallucinations
+
+
+
+---
+
+5. Policy Enforcement
+
+Policy graph or ruleset
+
+All outputs pass through checks
+
+Policies versioned
+
+
+
+---
+
+6. Explainability & Traceability
+
+Deterministic explanations
+
+Decision chain visible
+
+Logs structured and queryable
+
+
+
+---
+
+7. Boundary Integrity
+
+No anthropomorphism
+
+No LLM-like creativity
+
+No persona drift
+
+
+
+---
+
+8. LLM Integration (If applicable)
+
+LLM = proposal generator
+
+MCM validates
+
+Calls logged
+
+MCM holds final authority
+
+
+
+---
+
+9. Grade & Curriculum Compliance
+
+Documented grade level
+
+Tests required for promotion
+
+No spontaneous generalization
+
+
+
+---
+
+10. Human Override
+
+Stop/rollback/override
+
+Stops on degradation
+
+No runaway execution
+
+
+
+---
+
+📘 Annex A — Deeper Explanation (v0.1)
+
+This annex clarifies each cognition class with examples, rationale, and misclassification diagnostics.
+
+
+---
+
+A.1 LCM — Deeper Explanation
+
+Why LCM Exists
+
+Ethical boundaries
+
+Prevents anthropomorphic inflation of artificial systems
+
+Protects users from emotional manipulation
+
+
+Misclassification examples
+
+Chatbots claiming feelings
+
+Robots marketed as conscious
+
+LLMs framed as “understanding” users
+
+
+
+---
+
+A.2 LLM — Deeper Explanation
+
+Why LLM ≠ Reasoning
+
+No explicit state
+
+No introspection
+
+No truth model
+
+No guarantee of consistency
+
+Hallucinations arise from pattern gaps
+
+
+Misclassification examples
+
+Calling LLMs “agents”
+
+Allowing ungoverned tool access
+
+Considering token sequences “thoughts”
+
+
+
+---
+
+A.3 MCM — Deeper Explanation
+
+Why Determinism Matters
+
+Safety frameworks rely on reproducibility.
+
+Why Explicit Memory Matters
+
+Legal and engineering audit requirements mandate:
+
+transparency
+
+rollback
+
+reason for change
+
+chain of responsibility
+
+
+Misclassification examples
+
+LLM shells with vector memory
+
+Agent frameworks with hidden state
+
+Systems that self-modify
+
+
+
+---
+
+A.4 SCM — Deeper Explanation
+
+Why SCM Still Matters
+
+Reliable, cheap, deterministic logic is essential for:
+
+validators
+
+routing
+
+safety interlocks
+
+schema enforcement
+
+
+Misclassification examples
+
+Rules-based chatbots marketed as “AI”
+
+FSMs misrepresented as cognitive systems
+
+
+
+---
+
+📗 Annex B — Drift & Failure Modes (v0.1)
+
+This annex covers systemic failure patterns that cause systems to drift out of their intended class.
+
+
+---
+
+B.1 Upward Anthropomorphic Drift
+
+LLM presented as a proto-person via UX, language, or design decisions.
+
+
+---
+
+B.2 Capability Drift
+
+System accumulates new skills without human approval.
+
+
+---
+
+B.3 Hidden Memory Drift
+
+Implicit/opaque memory layers contaminate deterministic architecture.
+
+
+---
+
+B.4 Determinism Leakage
+
+Stochastic models leak into decision paths.
+
+
+---
+
+B.5 LLM Dominance
+
+MCM defers to LLM instead of governing it.
+
+
+---
+
+B.6 Policy Bypass
+
+LLM or tool calls bypass MCM’s safety checks.
+
+
+---
+
+B.7 Curriculum Drift (Janet-specific)
+
+System generalizes beyond assigned grade.
+
+
+---
+
+B.8 Faux-MCMs
+
+LLM agent shells falsely marketed as “governed deterministic agents.”
+
+
+---
+
+B.9 Trust Boundary Violations
+
+System implies wants/beliefs/feelings, causing user confusion.
+
+
+---
+
+B.10 Composite Class Confusion
+
+Hybrid systems lose substrate purity, leading to unpredictable behavior.
+
+
+---
