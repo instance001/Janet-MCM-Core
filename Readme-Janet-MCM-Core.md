@@ -1,130 +1,170 @@
-# 🧠 Janet — Modest Cognition Model (MCM)
-### _Deterministic cognition. Explicit memory. Zero ambiguity. Open for everyone._
+🧠 JANET – Modest Cognition Model (MCM)
 
-**Janet** is the reference implementation of a **Modest Cognition Model (MCM)** —  
-a new class of artificial cognition designed for **safety, transparency, and stability**, not scale.
+Deterministic Architecture. Explicit Memory. Human-Gated Reasoning.
 
-Unlike LLMs, Janet does **not** predict tokens, store opaque representations, hallucinate, or drift.  
-She executes **deterministic skills**, uses **explicit memory**, and grows only through  
-**human-gated curriculum**, one skill at a time.
+Janet is the reference implementation of a Modest Cognition Model (MCM) —
+a new cognition class designed to solve the two core failures of neural AI:
 
-This repository contains the **initial assets, architecture drafts, and demonstration bundles**  
-for the MCM framework. Everything here is **free, open, and licensed AGPLv3** to ensure  
-the community can evolve it without lock-in.
+✔ unpredictability
 
----
+✔ uninspectability
 
-## 🚫 The Anti-LLM
-| LLM | MCM (Janet) |
-|-----|-------------|
-| Stochastic predictions | Deterministic logic |
-| Hidden state | Explicit memory |
-| Hallucinations | Ambiguity rejection |
-| Persona drift | Zero persona |
-| Grows by parameters | Grows by skills |
-| Black-box | Fully inspectable |
+MCMs reject statistical prediction entirely.
+Instead, they operate through:
 
----
+deterministic selectors
 
-## 📦 Repository Contents
-This repo includes the **public v0.1 release artifacts**, including:
+fully modular skills
 
-- **Architecture Diagrams** (ASCII + SVG spec)
-- **Memory Spine Assets**  
-- **Contributing & Security Guidelines**  
-- **Project Banners / Branding**
-- **Janet v0.10 JSON Invoice Demo** (early proof-of-intent)
-- **Foundational MCM documents**
+typed explicit memory
 
-These ZIPs document the early stages of Janet’s development and serve as  
-the open-commons timestamp guaranteeing free use for everyone.
+strict schema validation
 
-More structured code and a full repo scaffold will arrive in **v0.2+**.
+human-gated curriculum growth
+
+transparent, auditable reasoning steps
+
+
+Janet is the world’s first open, documented, fully reproducible MCM framework.
+
+Everything is licensed AGPLv3 to ensure it remains part of the digital commons.
+
 
 ---
 
-## 🧪 Proof-of-Intent (v0.1)
-This release demonstrates:
+🧩 Why MCMs Matter
 
-- Defined **architecture rules**
-- Explicit **memory spine**
-- Safety-aligned **curriculum pipeline**
-- Deterministic **skill execution model**
-- A practical **JSON invoice verification demo**
-- Core research papers outlining MCM theory
+Modern AI is powerful, but fragile:
 
-This shows the **shape** of the system before implementation.
+LLMs hallucinate.
 
----
+They cannot be audited.
 
-## 📚 What Is a Modest Cognition Model?
-A **Modest Cognition Model (MCM)** is a new AI class defined by:
+Their internal state cannot be inspected.
 
-- **Deterministic selectors**  
-- **Modular skill units**  
-- **Explicit, typed memory**  
-- **Hard modesty boundaries** (no generality, no persona)  
-- **Human-gated growth**  
-- **Curriculum-based training pipeline**  
-- **Auditability by design**
+They drift, forget, and behave inconsistently.
 
-MCMs combine structured cognition with strict safety guardrails.  
-They are not neural networks, not LLMs, not agents — but a new middle layer  
-for stable, local cognition systems.
+They require enormous hardware and proprietary cloud access.
 
----
 
-## 🔒 License
-All work in this repository is licensed under **AGPLv3**  
-to ensure that anyone who improves, extends, or redistributes Janet  
-must keep it **open and share alike**.
+Governments, educators, safety labs, and industry all face the same problem:
 
----
+“How do we get reliable, deterministic, locally-run AI?”
 
-## 🌐 Links
-Future versions, mirror archives, and documentation will be available at:
+MCMs provide the answer.
 
-**archive.org/details/janet-mcm**  
-**github.com/YOURUSERNAME/janet**
+Janet’s architecture is:
 
----
+safe by design
 
-## 🤝 Contributing
-Janet is at an early research stage. Contributions are welcome, especially:
+modular
 
-- Skill examples  
-- Memory spine experiments  
-- Curriculum templates  
-- Selector architectures  
-- Deterministic reasoning methods  
-- Auditable cognition safety designs  
+transparent
 
-See `CONTRIBUTING.md` in this repo for details.
+lightweight
+
+local-first
+
+educationally aligned
+
+fully reproducible
+
+
+This makes MCMs ideal for:
+
+public institutions
+
+safety research
+
+regulated environments
+
+education & curriculum design
+
+low-resource regions
+
+deterministic automation
+
+
 
 ---
 
-## 🧭 Roadmap
-| Version | Status | Description |
-|--------|--------|-------------|
-| **v0.1** | Released | Assets, diagrams, core docs, demo bundle |
-| **v0.2** | In progress | Repo scaffold, basic MCM engine layout |
-| **v0.3** | Planned | Deterministic core, selectors, memory spine |
-| **v0.4** | Planned | Skill packs + CLI |
-| **v0.5** | Planned | Local Janet runtime (MCM reference build) |
+🧱 Core Architectural Principles 
+
+1. Deterministic Execution
+
+Every cognitive step is explicit, inspectable, and reproducible.
+
+2. Skill-Based Cognition
+
+Knowledge lives in skills, not hidden parameters.
+
+3. Structured Selectors
+
+Janet uses schema-based routing to choose the correct skill.
+
+4. Typed Memory Spine
+
+Memory is a human-curated, structured knowledge ledger.
+No hidden layers. No embeddings. No drift.
+
+5. Curriculum Growth
+
+New skills must be approved by a human supervisor before integration.
+
+6. Zero Hallucination
+
+Ambiguity is rejected, never guessed.
+
+This is the opposite of LLM behaviour — by design.
+
 
 ---
 
-## 💙 Purpose
-Janet exists for one reason:
+🧪 Current Repository Contents 
 
-> **To give the world a safe, inspectable, predictable alternative to neural AI.**  
-> No hype, no lock-in, no bullshit — just honest, modest cognition.
+This v0.1 release includes:
 
-This project will remain **free forever**, under an open license,  
-for the benefit of anyone who needs stability more than spectacle.
+architecture diagrams (ASCII + structured spec)
+
+memory spine prototypes
+
+deterministic routing sketches
+
+governance & safety rules
+
+early demos (JSON invoice validator)
+
+contributor guidelines
+
+roadmap to v0.5 local runtime
+
+scientific position papers introducing MCM theory
+
+
+This repository acts as the foundation for future scientific, educational, and engineering work in deterministic cognition systems.
+
 
 ---
 
-## 🌀 “Modest by Design.”
-Janet does not try to be everything.  
-She tries to be **trustworthy** — and that is enough.
+🧭 Roadmap 
+
+Version	Description
+
+v0.1	Architecture, early demos, and research papers
+v0.2	Full repo scaffold + deterministic core layout
+v0.3	Prototype runtime (selectors + skills + validation)
+v0.4	Skill pack examples + CLI
+v0.5	Local MCM runtime (first public Janet reference implementation)
+
+
+This roadmap is realistic, structured, and funding-friendly.
+
+
+---
+
+💙 Purpose Statement
+
+> Janet exists to provide the world with a safe, deterministic, inspectable alternative to neural AI — one that anyone can run, study, and improve.
+
+The goal is not scale.
+The goal is trust, transparency, and reproducibility.
