@@ -146,6 +146,17 @@ This repository acts as the foundation for future scientific, educational, and e
 
 ---
 
+Runnable demo storage note:
+
+The `Janet_v0_10_json_invoice_demo.zip` package is portable by default. When
+run from an extracted copy, it creates `janet/janet_memory/candidate` and
+`janet/janet_memory/stable` beside the demo package on first run. Set
+`JANET_MCM_DATA_DIR` to redirect writable memory files for installed or scripted
+use.
+
+
+---
+
 🧭 Roadmap 
 
 Version	Description
