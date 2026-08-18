@@ -36,6 +36,11 @@ Drift & Failure Modes Annex (systemic risks + mitigation)
 
 This is a conservative taxonomy, intentionally non-anthropomorphic, designed to prevent category slippage and preserve clarity across engineering, governance, and public communication.
 
+Terminology boundary: cognition-class labels in this taxonomy describe proposed
+system classes, observable architecture, and governance constraints. They are
+not claims that artificial systems possess consciousness, sentience, personhood,
+subjective experience, or moral standing.
+
 
 ---
 

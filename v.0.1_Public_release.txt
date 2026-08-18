@@ -1,17 +1,21 @@
 🧠 Janet MCM Core v0.1.0 — Initial Public Commons Release
 
-The world’s first Modest Cognition Model (MCM) — open, deterministic, and free forever.
+An initial public Modest Cognition Model (MCM) release — open, deterministic, and free forever.
 
-This release marks the first public publication of Janet, a Modest Cognition Model (MCM) — a new class of artificial cognition built for safety, transparency, determinism, and stability, not scale.
+This release marks the public publication of Janet, a Modest Cognition Model (MCM) — a proposed class of artificial cognition built for safety work, transparency, determinism, and stability, not scale.
 
-MCM = Modest Cognition Model — a new cognitive class defining deterministic, modular, bounded artificial cognition.
+MCM = Modest Cognition Model — a proposed cognitive class defining deterministic, modular, bounded artificial cognition.
 
-This definition supersedes any previous or alternative uses of the acronym MCM within other fields; within the Symbound ecosystem and its derivatives, MCM exclusively refers to the Modest Cognition Model class.
+Within the Symbound ecosystem and its derivatives, MCM refers to the Modest Cognition Model class; this project does not claim authority over unrelated external uses of the acronym.
 
 MCMs are not LLMs, not neural networks, and not agent frameworks.
-Janet represents a transparent, auditable, modular cognition engine that grows only through human-gated curriculum.
+Janet represents a transparent, auditable, modular artificial cognition engine that grows only through human-gated curriculum.
 
-This release establishes the conceptual, legal, and architectural foundation of the MCM class in the global commons.
+This release establishes a conceptual, legal, and architectural foundation for the MCM class in the global commons.
+
+Terminology boundary: MCM cognition language names a proposed architecture and
+taxonomy for deterministic artificial systems. It is not a claim of sentience,
+consciousness, personhood, subjective experience, or guaranteed correctness.
 
 
 ---
@@ -110,7 +114,7 @@ Protect the design under a strong copyleft license
 Demonstrate a working “intent example” (JSON invoice demo)
 
 
-This release functions as the first public anchor for the class — a timestamped, discoverable, immutable foundation ensuring the commons owns Modest Cognition Models.
+This release functions as a public anchor for the class — a timestamped, discoverable foundation intended to keep Modest Cognition Models in the commons.
 
 
 ---
@@ -168,5 +172,5 @@ A path built for stability, not spectacle.
 
 Janet and the MCM class are released for the world to build upon — free, open, and unowned.
 
-This is the beginning of a new public cognitive substrate.
+This is the beginning of a proposed public artificial-cognition substrate.
 

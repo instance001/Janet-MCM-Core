@@ -3,7 +3,8 @@
 Deterministic Architecture. Explicit Memory. Human-Gated Reasoning.
 
 Janet is the reference implementation of a Modest Cognition Model (MCM) —
-a new cognition class designed to solve the two core failures of neural AI:
+a proposed artificial cognition class designed to address two core failures of
+neural AI:
 
 ✔ unpredictability
 
@@ -25,7 +26,13 @@ human-gated curriculum growth
 transparent, auditable reasoning steps
 
 
-Janet is the world’s first open, documented, fully reproducible MCM framework.
+Janet is presented here as an open, documented, reproducible reference MCM
+framework.
+
+Terminology boundary: in this repository, cognition terms describe the proposed
+MCM architecture, its inspectable control flow, and its explicit state handling.
+They are not claims of consciousness, sentience, personhood, subjective
+experience, or guaranteed correctness.
 
 Everything is licensed AGPLv3 to ensure it remains part of the digital commons.
 
@@ -53,9 +60,9 @@ Governments, educators, safety labs, and industry all face the same problem:
 
 MCMs provide the answer.
 
-Janet’s architecture is:
+Janet’s architecture is intended to be:
 
-safe by design
+bounded by design
 
 modular
 
@@ -70,7 +77,7 @@ educationally aligned
 fully reproducible
 
 
-This makes MCMs ideal for:
+This makes MCMs candidates for:
 
 public institutions
 
@@ -92,7 +99,7 @@ deterministic automation
 
 1. Deterministic Execution
 
-Every cognitive step is explicit, inspectable, and reproducible.
+Every MCM processing step is explicit, inspectable, and reproducible.
 
 2. Skill-Based Cognition
 
@@ -111,7 +118,7 @@ No hidden layers. No embeddings. No drift.
 
 New skills must be approved by a human supervisor before integration.
 
-6. Zero Hallucination
+6. Zero Hallucination Stance
 
 Ambiguity is rejected, never guessed.
 
@@ -141,7 +148,7 @@ roadmap to v0.5 local runtime
 scientific position papers introducing MCM theory
 
 
-This repository acts as the foundation for future scientific, educational, and engineering work in deterministic cognition systems.
+This repository acts as a foundation for future scientific, educational, and engineering work in deterministic artificial cognition systems.
 
 
 ---
