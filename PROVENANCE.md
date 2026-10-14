@@ -32,3 +32,7 @@ GitHub API licence field at inventory time: `AGPL-3.0`. This is a metadata obser
 ## Evidence and limitations
 
 Evidence: authenticated GitHub API metadata captured by the FMI provenance audit. Contribution, prior art, ownership, contributors, document licensing, relationships, releases, and publication status require human verification.
+
+## Evidence-led lineage position
+
+The repository is an `IMPLEMENTED` deterministic Modest Cognition Model (MCM) core according to its public documentation. Cognition-Scale Formal Taxonomy supplies proposed terminology, while Janet School supplies a later controlled research rig. These links do not establish that MCM is a settled scientific category, or that the implementation evidences consciousness, general intelligence, or any clinical construct.
